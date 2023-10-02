@@ -27,7 +27,12 @@ function generatePassword() {
 
 let incLower = confirm("press OK to include lower case letters")  ;
 let incUpper = confirm("press OK to include upper case letters")  ;
-let number = confirm("press OK to include numbers")  ;
-let symbol = confirm("press OK to include symbols")  ;
+let incNumber = confirm("press OK to include numbers")  ;
+let incSymbol = confirm("press OK to include symbols")  ;
+
+if (incLower === false && incUpper === false && incNumber === false && 
+  incSymbol === false ){
+    return("at least one caracter type should be include to generate password, please retry");
+  }
 
 }
