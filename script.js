@@ -35,4 +35,14 @@ if (incLower === false && incUpper === false && incNumber === false &&
     return("at least one caracter type should be include to generate password, please retry");
   }
 
+  let caracters= '';
+  lower= "abcdefghijklmnopqrstuvwxyz";
+  upper= "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+  number= "0123456789";
+  symbol= "!@#$%^&*()";
+
+  if(incLower){
+    caracters += lower;
+  }
+  console.log("caracters = ", caracters)
 }
