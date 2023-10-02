@@ -25,5 +25,9 @@ function generatePassword() {
     return("length must be between 8 and 128, please retry");
   }
 
-  
+let incLower = confirm("press OK to include lower case letters")  ;
+let incUpper = confirm("press OK to include upper case letters")  ;
+let number = confirm("press OK to include numbers")  ;
+let symbol = confirm("press OK to include symbols")  ;
+
 }
