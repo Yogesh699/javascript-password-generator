@@ -31,7 +31,7 @@ let incNumber = confirm("press OK to include numbers")  ;
 let incSymbol = confirm("press OK to include symbols")  ;
 
 if (incLower === false && incUpper === false && incNumber === false && 
-  incSymbol === false ){
+  incSymbol === false){
     return("at least one caracter type should be include to generate password, please retry");
   }
 
